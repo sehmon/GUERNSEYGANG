@@ -1,42 +1,21 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<title>GUERNSEY GANG</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<style>
-			body {
-				font-family: Helvetica, sans-serif;
-				background-color: #000;
-				color: #FFF;
-				margin: 0px;
-				overflow: hidden;
-			}
-
-			#info {
-				z-index: 10;
-				position: absolute;
-				left: 16px;
-				bottom: 28px;
-				font-size: 32px;
-			}
-
-			a {
-				text-decoration: underline;
-				cursor: pointer;
-			}
-
-			h1, p {
-				text-shadow: 2px 2px #000;
-			}
-		</style>
-
+		<!-- Favicon Links -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
+
+		<title>GUERNSEY GANG</title>
+		
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
 	</head>
 
 	<body>
@@ -47,14 +26,10 @@
 			<p>Shop</p>
 		</div>
 
-		<script async="" type="text/javascript"></script><script src="Three50dev2.js"></script>
-		<!--
-		<script src="../build/Three.js"></script>
--->
+		<script src="Three50dev2.js"></script>
 		<script src="Detector.js"></script>
-		<script src="Stats.js"></script>
 		<script src="Flag.js"></script>
-
+		
 		<script type="x-shader/x-fragment" id="fragmentShaderDepth">
 
 			uniform sampler2D texture;
@@ -175,7 +150,7 @@
 
 				// cloth material
 
-				var clothTexture = THREE.ImageUtils.loadTexture( 'standrews.png' );
+				var clothTexture = THREE.ImageUtils.loadTexture( 'flag.png' );
 				clothTexture.wrapS = clothTexture.wrapT = THREE.RepeatWrapping;
 				clothTexture.anisotropy = 16;
 

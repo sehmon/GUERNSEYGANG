@@ -1,0 +1,26 @@
+/** Site Styles **/
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #000;
+  color: #FFF;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#info {
+  z-index: 10;
+  position: absolute;
+  left: 16px;
+  bottom: 28px;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1, p {
+  text-shadow: 2px 2px #000;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<title>three.js webgl - 3D Flag</title>
+		<title>GUERNSEY GANG</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
@@ -30,6 +30,13 @@
 				text-shadow: 2px 2px #000;
 			}
 		</style>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 
 	<body>
@@ -149,10 +156,9 @@
 				light.shadowMapWidth = 2048;
 				light.shadowMapHeight = 2048;
 
-				var d = 300;
+				var d = 10000;
 
-				light.shadowCameraLeft = -d;
-				light.shadowCameraRight = d;
+				light.shadowCameraRight = 2*d;
 				light.shadowCameraTop = d;
 				light.shadowCameraBottom = -d;
 
@@ -357,6 +363,6 @@
 			}
 
 		</script>
-		<div><canvas height="932" width="1920"></canvas><div style="cursor: pointer; width: 80px; opacity: 0.9; z-index: 10001; position: absolute; top: 0px;"><div style="background: none repeat scroll 0% 0% transparent; padding: 2px 0px 3px;"><div style="font-family: Helvetica,Arial,sans-serif; text-align: left; font-size: 9px; color: rgb(170, 170, 170); margin: 0px 0px 1px 3px;"></div><canvas style="display: none; margin-left: 3px;" height="30" width="74"></canvas></div><div style="background-color: rgb(8, 24, 8); padding: 2px 0px 3px; display: none;"><div style="font-family: Helvetica,Arial,sans-serif; text-align: left; font-size: 9px; color: rgb(0, 255, 0); margin: 0px 0px 1px 3px;"><span style="font-weight:bold">10 MS</span> (5-504)</div><canvas style="display: block; margin-left: 3px;" height="30" width="74"></canvas></div><div style="background-color: rgb(24, 8, 13); padding: 2px 0px 3px; display: none;"><div style="font-family: Helvetica,Arial,sans-serif; text-align: left; font-size: 9px; color: rgb(255, 0, 128); margin: 0px 0px 1px 3px;"><span style="font-weight:bold">MEM</span></div><canvas style="display: block; margin-left: 3px;" height="30" width="74"></canvas></div></div></div>
+		<div><canvas height="100%" width="100%"></canvas><div style="cursor: pointer; width: 80px; opacity: 0.9; z-index: 10001; position: absolute; top: 0px;"><div style="background: none repeat scroll 0% 0% transparent; padding: 2px 0px 3px;"><div style="font-family: Helvetica,Arial,sans-serif; text-align: left; font-size: 9px; color: rgb(170, 170, 170); margin: 0px 0px 1px 3px;"></div><canvas style="display: none; margin-left: 3px;" height="30" width="74"></canvas></div><div style="background-color: rgb(8, 24, 8); padding: 2px 0px 3px; display: none;"><div style="font-family: Helvetica,Arial,sans-serif; text-align: left; font-size: 9px; color: rgb(0, 255, 0); margin: 0px 0px 1px 3px;"><span style="font-weight:bold">10 MS</span> (5-504)</div><canvas style="display: block; margin-left: 3px;" height="30" width="74"></canvas></div><div style="background-color: rgb(24, 8, 13); padding: 2px 0px 3px; display: none;"><div style="font-family: Helvetica,Arial,sans-serif; text-align: left; font-size: 9px; color: rgb(255, 0, 128); margin: 0px 0px 1px 3px;"><span style="font-weight:bold">MEM</span></div><canvas style="display: block; margin-left: 3px;" height="30" width="74"></canvas></div></div></div>
 	
 </body></html>

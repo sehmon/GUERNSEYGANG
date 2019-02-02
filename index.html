@@ -225,7 +225,7 @@
 				var groundMaterial = new THREE.MeshPhongMaterial( { color: 0xffffff, specular: 0x111111, map: initTexture, perPixel: true } );
 
 				// Randomly choose water of lava
-				var textureFiles = ['lava.jpg', 'water.jpg', 'sand.jpg']
+				var textureFiles = ['lava.jpg']
 				var textureFile = textureFiles[Math.floor(Math.random()*textureFiles.length)];
 				
 				var groundTexture = THREE.ImageUtils.loadTexture( textureFile, undefined, function() { groundMaterial.map = groundTexture } );
